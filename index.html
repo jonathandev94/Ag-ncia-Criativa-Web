@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência Criativa Web | BEM & Modules</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+
+    <header class="header">
+        <div class="header__container">
+            <div class="logo">Criativa<span class="logo--highlight">Web</span></div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#servicos" class="nav__link">Serviços</a></li>
+                    <li class="nav__item"><a href="#contato" class="nav__link nav__link--button">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero" id="home">
+            <div class="hero__content">
+                <h1 class="hero__title">Transformamos ideias em <span class="text--gradient">experiências digitais</span></h1>
+                <p class="hero__subtitle">Design de alta performance para empresas que buscam o topo.</p>
+                <a href="#contato" class="btn btn--primary">Começar Projeto</a>
+            </div>
+        </section>
+
+        <section class="services container" id="servicos">
+            <h2 class="services__title">Nossos Serviços</h2>
+            <div class="services__grid">
+                <article class="card">
+                    <h3 class="card__title">UI/UX Design</h3>
+                    <p class="card__description">Interfaces intuitivas focadas na jornada do usuário.</p>
+                </article>
+                <article class="card card--featured">
+                    <h3 class="card__title">Web Development</h3>
+                    <p class="card__description">Sites robustos, rápidos e otimizados para SEO.</p>
+                </article>
+                <article class="card">
+                    <h3 class="card__title">Branding</h3>
+                    <p class="card__description">Identidade visual que conecta sua marca ao público certo.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact container" id="contato">
+            <h2 class="contact__title">Contato</h2>
+            <div class="contact__wrapper">
+                <div class="contact__info">
+                    <p class="contact__item">📍 Porto Ferreira, SP</p>
+                    <p class="contact__item">📧 contato@criativaweb.com</p>
+                </div>
+                <form class="contact__form">
+                    <input type="text" class="contact__input" placeholder="Seu Nome" required>
+                    <input type="email" class="contact__input" placeholder="Seu E-mail" required>
+                    <textarea class="contact__textarea" placeholder="Sua Mensagem" rows="5"></textarea>
+                    <button type="submit" class="btn btn--primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2026 Agência Criativa Web. Desenvolvido por Jonathan.</p>
+    </footer>
+
+</body>
+</html>
